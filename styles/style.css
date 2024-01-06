@@ -59,6 +59,55 @@ main {
     justify-content: center;
 }
 
+
+
+/* my plan style */
+.my-plan {
+    text-align: center;
+    margin: 130px 220px 0;
+}
+
+.my-plan > h2{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.topic {
+    gap: 85px;
+}
+
+.topic img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 30px;
+}
+
+.topic h4 {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.topic p {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.my-plan > .topic {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* images section styles */
+
 main .image {
     background-image:url("../images/gradient2.png"), url("../images/watch.png");
     background-repeat: no-repeat, no-repeat;
