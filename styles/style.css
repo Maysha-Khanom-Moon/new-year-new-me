@@ -59,6 +59,30 @@ main {
     justify-content: center;
 }
 
+/* my failure */
+.failure {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 130px 200px 0;
+}
+
+.fail-right {
+    width: 400px;
+    height: 400px;
+}
+
+.fail-right > h3 {
+    color: #151414;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.fail-right > p{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+}
 
 
 /* my plan style */
@@ -97,13 +121,14 @@ main {
     font-size: 25px;
     font-weight: 500;
     margin-top: 0;
+    margin-bottom: 7px;
+    padding: 0;
 }
 
 .my-plan > .topic {
     display: flex;
     justify-content: center;
 }
-
 
 
 /* images section styles */
