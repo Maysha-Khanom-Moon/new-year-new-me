@@ -1,0 +1,133 @@
+/* common styles */
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+
+/* header styles */
+header {
+    height: 800px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-image: url("../images/banner/banner2.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.header {
+    width: 500px;
+    margin: 170px 200px;
+    text-align: right;
+}
+
+.head-title {
+    color: #151414;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.head-description {
+    color: var(--Dark-02, #444343);
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.head-button {
+    margin-top: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 5px;
+    background-color: #F15B22;
+    padding: 20px 25px;
+}
+
+/* main styles */
+main {
+    width: 100%;
+}
+
+main .image {
+    margin: 130px 230px;
+    background-image: url("../images/watch.png");
+    background-repeat: no-repeat;
+}
+
+/* footer styles */
+footer {
+    height: 600px;
+    background-color: #151414;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer-left, .footer-right {
+    width: 50%;
+    margin-top: 130px;
+    margin-left: 220px;
+}
+
+.footer-left > h2 {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+
+.footer-left > p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    width: 485px;
+}
+
+.footer-left .icon {
+    margin-top: 30px;
+}
+
+.footer-left .icon > a {
+    margin-right: 15px;
+}
+
+.footer-right .title {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.footer-right input {
+    color: #F3F3F3;
+    font-size: 18px;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    background-color: #151414;
+    margin-bottom: 16px;
+}
+
+.footer-right button {
+    margin-top: 0;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 5px;
+    background-color: #FFF;
+    padding: 20px 25px;
+}
